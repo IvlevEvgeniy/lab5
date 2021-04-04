@@ -2,7 +2,7 @@
 #include <cstdio>
 using namespace std;
 void decoder(char* s, int* cstr, int n) {
-	char str[3];
+	char str[100];
 	int i;
 	for (i = 0;i < n;i++) {
 		str[i] = s[cstr[i]];
